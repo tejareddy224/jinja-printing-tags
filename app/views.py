@@ -10,3 +10,7 @@ def jinga_printing(request):
     return render(request,'jinga_printing.html',d)
     '''
 
+def jinja_opertaional(request):
+    d={'data':[1,'',3,'',5,''],'names':['teja','sai','triandh','bhanu']}
+    return render(request,'jinja_opertaional.html',d)
+

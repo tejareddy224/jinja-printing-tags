@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>jinja_opertaional</title>
+</head>
+<body>
+    <center>
+    <h1>jinja_opertaional</h1>
+     <!-- for loop and if condition -->
+     {% for i in data %}
+     {% if i %}
+         <h2>{{i}}</h2>
+     {% else %}
+     <h2>value is not specified </h2>
+     {% endif %}
+
+ {% endfor%}
+    <!-- for loop -->
+    
+        <table border="3px">
+            <thead>
+                <th>names</th>
+            </thead>
+            {% for i in names %}
+                <tr><td>{{i}}</td></tr>
+            {% endfor %}
+        </table>
+
+
+
+
+       
+
+    </center>
+
+</body>
+</html>

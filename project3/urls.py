@@ -21,4 +21,5 @@ from app.views import *
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('jinga_printing/',jinga_printing,name='jinga_printing'),
+    path('jinja_opertaional/',jinja_opertaional,name='jinja_opertaional'),
 ]
